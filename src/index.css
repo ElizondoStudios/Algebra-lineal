@@ -1,0 +1,50 @@
+html{
+  font-size: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* 
+###########################################
+        Entrada sistemas
+###########################################
+*/
+
+.entrada-sistemas{
+  display: flex;
+  justify-content: center;
+}
+  .entrada-sistemas--form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 50%;
+  }
+
+
+/* 
+###########################################
+        Matriz aumentada
+###########################################
+*/
+
+.matriz-aumentada{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .matriz-aumentada--simbolos>p{
+    font-size: 10rem;
+    font-weight: 100;
+    margin: 0;
+  }
+
+  .matriz-aumentada--datos{
+    display: flex;
+    flex-direction: column;
+  }
+
+    .matriz-aumentada--datos>p{
+      font-size: 2rem;
+      margin: 0;
+    }
